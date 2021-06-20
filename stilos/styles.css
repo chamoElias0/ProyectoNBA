@@ -1,0 +1,268 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+
+}
+body{
+    background-color : #ffff;
+   
+
+}
+.titulo{
+    text-align: center;
+    font-size : 5em;
+    color: #2d3047;
+    padding: 0.5em;
+
+}
+.grid-container{
+    display : grid;
+    grid-template-columns:auto auto ;
+    background-color:rgb(246, 246, 246)
+    
+}
+.grid-container img{
+    width :100%;
+    padding :0.5em;
+}
+.grid-container p{
+    font-size : 1.25em;
+    padding :1.8em;
+}
+
+/**MENU**/
+
+header{
+    background : #2d3047;
+}
+header nav{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+}
+header nav .menu{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+
+}
+header nav .menu .brand img{
+    width : 12.5em;
+    padding : 0.5em;
+}
+header nav .menu .links {
+    display : flex;
+}
+header nav .menu .links a{
+    padding : 1em 0.75em;
+    color: white;
+    text-decoration : none;
+    font-size:1.25em;
+    border-bottom: 0.3em solid transparent;
+
+
+}
+header nav .menu .links a:hover{
+    color : red;
+    transform: scale(1.05);
+
+}
+/**FIN MENU**/
+
+/*EQUIPOS*/
+#contenedor{
+    background-color:rgb(250, 250, 250);
+    padding-top: 1.25em ;
+     
+}
+#contenedor-logo{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background : white;
+    border: .2em solid red;
+    padding-bottom:9em;
+    margin-bottom: 1.25em;
+}
+#contenedor-logo img {
+    padding-top: 1.875em;
+    padding-left: 1.875em;
+    padding-right: 1.875em;
+    width: 25em;
+    float:left;
+
+
+}
+#contenedor-logo p{
+    padding-right: 3.7em;
+    margin-top: 1.25em;
+}
+
+.equipo{
+    text-align: center;
+    font-weight: bold;
+    font-size:5em ;
+
+}
+/*FIN EQUIPOS*/
+
+/*MVPS*/
+.jugadores {
+    width:100%;
+    
+}
+.item {
+    width :33.33%;
+    padding-top: 1.875em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+   
+    float : left;
+    padding-bottom: 2.5em;
+
+}
+.jugadores img{
+    max-width: 37.5em;
+    max-height:20em;
+    width:100%;
+    padding-left: 1em;
+    padding-right:0.3em;
+    
+
+}
+.jugadores img:hover{
+    transform : scale(1.09);
+}
+.nombre{
+    font-weight: bold;
+    font-size:1.25rem;
+    text-transform: uppercase;
+    font-family:roboto;
+}
+.nombre p a {
+    text-decoration: none;
+}
+.jugadores p{
+    margin-left: 0.6em;
+    text-align: center;
+
+}
+.jugadores p a{
+    text-decoration: none;
+    color: #2d3047;
+    
+}
+
+
+/*FIN MVPS*/
+/** inicio rookies**/
+.primerPick{
+    text-align:center;
+    font-size:5.13em;
+    padding-top:.25em;
+    font-family: roboto;
+    color:#2d3047 ;
+}
+.rookies{
+    display:grid;
+    grid-template-columns: auto auto auto ;    
+    padding-top: 2vh;
+}
+div .pick {
+    align-items: center;
+    text-align: center;
+    padding: 1.25em;
+    
+}
+
+
+.pick img{
+    max-width: 100%;
+    width  : 25em;
+    padding-left :auto;
+    height : 15.6em;
+
+}
+.pick img:hover{
+transform : scale(1.09);
+}
+.pick p{
+    padding-top:0.6em;
+}
+
+/** fin rookies**/
+/**play off**/
+.cuadro{
+    width:100%;
+    
+}
+.cuadro img {
+    width:112.5em;
+    height:44em;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top:5vh;
+}
+.play {
+    padding-top: 1.5em;
+    font-size: 4.6em;
+    text-align: center;
+    font-weight: bold;
+}
+/**FIN-play off**/
+
+/**contacto**/
+
+.contacto fieldset {
+    width:50em;
+    margin-left: auto;
+    margin-right :auto;
+
+}
+
+legend{
+    font-size: 1.5em;
+    color: #808080;    
+    text-align: center;
+}
+label {
+    font-weight: 700;
+    text-transform:uppercase;
+    display: block;
+    text-align: center;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1em;
+    display:block;
+    width: 50%;
+    background-color: #e1e1e1;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input[type="radio"]{
+    width: auto;
+}
+
+textarea {
+    height: 10em;
+}
+.forma-contacto {
+    max-width: 37.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+input[type="enviar"]{
+    width: auto;
+
+}
