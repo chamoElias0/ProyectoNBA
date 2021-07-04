@@ -13,7 +13,7 @@ body{
     text-align: center;
     font-size : 5em;
     color: #2d3047;
-    padding: 0.5em;
+    padding: 0.2em;
 
 }
 .grid-container{
@@ -21,14 +21,15 @@ body{
     grid-template-columns:auto auto ;
     background-color:rgb(246, 246, 246)
     
+    
 }
 .grid-container img{
     width :100%;
-    padding :0.5em;
+    padding :2em;
 }
 .grid-container p{
     font-size : 1.25em;
-    padding :1.8em;
+    padding :3em;
 }
 
 /**MENU**/
@@ -71,6 +72,9 @@ header nav .menu .links a:hover{
 
 }
 /**FIN MENU**/
+/** switch**/
+
+/** fin-switch**/
 
 /*EQUIPOS*/
 #contenedor{
@@ -78,6 +82,26 @@ header nav .menu .links a:hover{
     padding-top: 1.25em ;
      
 }
+.card{
+    width:90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.card-title{
+    text-align: center;
+}
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 #contenedor-logo{
     width: 80%;
     margin-left: auto;
@@ -87,15 +111,7 @@ header nav .menu .links a:hover{
     padding-bottom:9em;
     margin-bottom: 1.25em;
 }
-#contenedor-logo img {
-    padding-top: 1.875em;
-    padding-left: 1.875em;
-    padding-right: 1.875em;
-    width: 25em;
-    float:left;
 
-
-}
 #contenedor-logo p{
     padding-right: 3.7em;
     margin-top: 1.25em;
@@ -134,7 +150,7 @@ header nav .menu .links a:hover{
 
 }
 .jugadores img:hover{
-    transform : scale(1.09);
+    transform : scale(1.02);
 }
 .nombre{
     font-weight: bold;
@@ -187,10 +203,10 @@ div .pick {
 
 }
 .pick img:hover{
-transform : scale(1.09);
+    transform : scale(1.02);
 }
 .pick p{
-    padding-top:0.6em;
+    padding-top:0.1em;
 }
 
 /** fin rookies**/
@@ -200,11 +216,11 @@ transform : scale(1.09);
     
 }
 .cuadro img {
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
     width:112.5em;
-    height:44em;
-    padding-left: 10vh;
-    padding-right: 10vh;
-    padding-top:5vh;
+    height:44em;  
 }
 .play {
     padding-top: 1.5em;
