@@ -1,0 +1,172 @@
+/**equipos**/
+body .titulo {
+  text-align: center;
+  font-size: 5em;
+  color: #2d3047;
+  padding: 0.2em; }
+
+body .contenedor {
+  background-color: #ffff;
+  padding: 1.25em; }
+  body .contenedor .card {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto; }
+    body .contenedor .card .card-text, body .contenedor .card .card-title {
+      text-align: center; }
+    body .contenedor .card img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%; }
+
+/**fin equipos**/
+/**inicio mvps**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body .jugadores {
+  width: 100%; }
+  body .jugadores p a {
+    text-decoration: none;
+    color: #2d3047; }
+  body .jugadores img {
+    max-width: 37.5em;
+    max-height: 20em;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 0.3em; }
+  body .jugadores img:hover {
+    transform: scale(1.01); }
+  body .jugadores .item {
+    width: 33.33%;
+    float: left;
+    padding-top: 1.875em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+    padding-bottom: 2.5em; }
+  body .jugadores .nombre {
+    font-weight: bold;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-family: roboto; }
+    body .jugadores .nombre p a {
+      text-decoration: none; }
+  body .jugadores p {
+    margin-left: 0.6em;
+    text-align: center; }
+
+/**fin mvps**/
+body .rookies {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 2vh; }
+  body .rookies .pick {
+    align-items: center;
+    text-align: center;
+    padding: 1.25em; }
+    body .rookies .pick p {
+      padding-top: 0.1em; }
+    body .rookies .pick img {
+      max-width: 100%;
+      width: 25em;
+      padding-left: auto;
+      height: 15.6em; }
+    body .rookies .pick img:hover {
+      transform: scale(1.02); }
+
+body .cuadro {
+  width: 100%; }
+  body .cuadro img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 112.5em;
+    height: 44em; }
+
+/**contacto**/
+body .contacto fieldset {
+  width: 50em;
+  margin-left: auto;
+  margin-right: auto; }
+  body .contacto fieldset legend {
+    font-size: 1.5em;
+    color: #808080;
+    text-align: center; }
+  body .contacto fieldset label {
+    font-weight: 700;
+    text-transform: uppercase;
+    display: block;
+    text-align: center; }
+  body .contacto fieldset input:not([type="submit"]),
+  body .contacto fieldset textarea,
+  body .contacto fieldset select {
+    padding: 1em;
+    display: block;
+    width: 50%;
+    background-color: #e1e1e1;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto; }
+  body .contacto fieldset input[type="radio"] {
+    width: auto; }
+  body .contacto fieldset textarea {
+    height: 10em; }
+
+body .contacto .forma-contacto {
+  max-width: 37.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+body .contacto input[type="enviar"] {
+  width: auto; }
+
+/**fin-contacto**/
+body background {
+  color: #ffff; }
+
+body .carousel img, body .carousel-inner img, body .item img {
+  height: 870px; }
+
+body .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ffff; }
+  body .grid-container img {
+    width: 100%;
+    padding: 2em; }
+  body .grid-container p {
+    font-size: 1.25em;
+    padding: 3em; }
+
+body header {
+  background: #2d3047; }
+  body header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    body header nav .menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center; }
+      body header nav .menu .links {
+        display: flex; }
+        body header nav .menu .links a {
+          padding: 1em 0.75em;
+          color: white;
+          text-decoration: none;
+          font-size: 1.25em;
+          border-bottom: 0.3em solid transparent; }
+        body header nav .menu .links a:hover {
+          color: red;
+          transform: scale(1.05); }
+      body header nav .menu .brand img {
+        width: 12.5em;
+        padding: 0.5em; }

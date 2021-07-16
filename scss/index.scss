@@ -1,0 +1,61 @@
+@import '_variables' , 'equipos','mvp','rookies','playoff','contacto';
+
+body{
+    background{
+        color: $colorBody;
+    }
+    .carousel, .carousel-inner , .item {
+        img {
+            height: 870px;
+        }     
+    }
+    
+    .grid-container{
+        display : grid;
+        grid-template-columns:auto auto ;
+        background-color:$colorBody;
+        img{
+            width :100%;
+            padding :2em; 
+        }
+        p{
+            font-size : 1.25em;
+            padding :3em;
+        }
+    }
+    header{
+        background : $backgroundMenu;
+        nav{ 
+            display : flex;
+            flex-direction : row;
+            justify-content : space-between;
+            align-items : center;
+            .menu{
+                display : flex;
+                flex-direction : row;
+                justify-content : space-between;
+                align-items : center;
+                .links{
+                    display : flex;
+                    a{
+                    padding : 1em 0.75em;
+                    color: white;
+                    text-decoration : none;
+                    font-size:1.25em;
+                    border-bottom: 0.3em solid transparent; 
+                    }
+                    a:hover {
+                    color : red;
+                    transform: scale(1.05);
+                    }
+                }
+                .brand{
+                    img{
+                        width : 12.5em;
+                        padding : 0.5em;
+                    }
+                }
+            }
+        }
+    }
+}

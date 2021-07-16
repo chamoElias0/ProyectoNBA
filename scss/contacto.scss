@@ -1,0 +1,55 @@
+@import "_variables";
+/**contacto**/
+body{
+    .contacto{
+        fieldset{
+            width:50em;
+            margin-left: auto;
+            margin-right :auto;
+            legend{
+                font-size: 1.5em;
+                color: #808080;    
+                text-align: center;
+            }
+            label {
+                font-weight: 700;
+                text-transform:uppercase;
+                display: block;
+                text-align: center;
+            }
+            input:not([type="submit"]),
+            textarea,
+            select {
+                padding: 1em;
+                display:block;
+                width: 50%;
+                background-color: #e1e1e1;
+                margin-bottom: 2em;
+                border: none;
+                border-radius: 1em;
+                margin-left: auto;
+                margin-right: auto;
+
+            }
+            input[type="radio"]{
+                width: auto;
+            }
+            textarea {
+                height: 10em;
+            }
+        }
+        .forma-contacto{
+            max-width: 37.5em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center; 
+        }
+        input[type="enviar"]{
+            width: auto;
+        }
+    }
+}
+
+
+
+/**fin-contacto**/

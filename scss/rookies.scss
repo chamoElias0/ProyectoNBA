@@ -1,0 +1,27 @@
+@import "_variables";
+
+body{
+    .rookies{
+        display:grid;
+        grid-template-columns: auto auto auto ;    
+        padding-top: 2vh;
+        .pick{
+            align-items: center;
+            text-align: center;
+            padding: 1.25em;
+            p{
+                padding-top:0.1em;
+                
+            }
+            img{
+                max-width: 100%;
+                width  : 25em;
+                padding-left :auto;
+                height : 15.6em; 
+            }
+            img:hover{
+                transform : scale(1.02);
+            }
+        }
+    }
+}

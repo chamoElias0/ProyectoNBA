@@ -1,0 +1,11 @@
+$backgroundMenu : #2d3047;
+$colorBody : #ffff;
+$pading:0em;
+
+@mixin pading($pading){
+    padding:$pading;
+}
+
+
+
+

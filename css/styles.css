@@ -1,0 +1,164 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+
+}
+body{
+    background-color : #ffff;
+   
+
+}
+.titulo{
+    text-align: center;
+    font-size : 5em;
+    color: #2d3047;
+    padding: 0.2em;
+
+}
+
+
+/**MENU**/
+
+header{
+    background : #2d3047;
+}
+header nav{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+}
+header nav .menu{
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+
+}
+header nav .menu .brand img{
+    width : 12.5em;
+    padding : 0.5em;
+}
+header nav .menu .links {
+    display : flex;
+}
+header nav .menu .links a{
+    padding : 1em 0.75em;
+    color: white;
+    text-decoration : none;
+    font-size:1.25em;
+    border-bottom: 0.3em solid transparent;
+
+
+}
+header nav .menu .links a:hover{
+    color : red;
+    transform: scale(1.05);
+
+}
+/**FIN MENU**/
+
+
+
+
+
+
+
+/** inicio rookies**/
+
+.rookies{
+    display:grid;
+    grid-template-columns: auto auto auto ;    
+    padding-top: 2vh;
+}
+.pick {
+    align-items: center;
+    text-align: center;
+    padding: 1.25em;
+    
+}
+
+
+.pick img{
+    max-width: 100%;
+    width  : 25em;
+    padding-left :auto;
+    height : 15.6em;
+
+}
+.pick img:hover{
+    transform : scale(1.02);
+}
+.pick p{
+    padding-top:0.1em;
+}
+
+/** fin rookies**/
+/**play off**/
+.cuadro{
+    width:100%;
+    
+}
+.cuadro img {
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    width:112.5em;
+    height:44em;  
+}
+
+/**FIN-play off**/
+
+/**contacto**/
+
+.contacto fieldset {
+    width:50em;
+    margin-left: auto;
+    margin-right :auto;
+
+}
+
+legend{
+    font-size: 1.5em;
+    color: #808080;    
+    text-align: center;
+}
+label {
+    font-weight: 700;
+    text-transform:uppercase;
+    display: block;
+    text-align: center;
+}
+input:not([type="submit"]),
+textarea,
+select {
+    padding: 1em;
+    display:block;
+    width: 50%;
+    background-color: #e1e1e1;
+    margin-bottom: 2em;
+    border: none;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+input[type="radio"]{
+    width: auto;
+}
+
+textarea {
+    height: 10em;
+}
+.forma-contacto {
+    max-width: 37.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+input[type="enviar"]{
+    width: auto;
+
+}

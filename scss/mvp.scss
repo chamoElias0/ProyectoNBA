@@ -1,0 +1,56 @@
+@import "_variables";
+
+/**inicio mvps**/
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;   
+}
+body{
+    .jugadores{
+        width:100%;  
+        p a{
+            text-decoration: none;
+            color:$backgroundMenu;
+        }  
+        
+        img{
+            max-width: 37.5em;
+            max-height:20em;
+            width:100%;
+            padding-left: 1em;
+            padding-right:0.3em; 
+            
+        }
+        img:hover{
+                transform : scale(1.01);
+        }
+        .item{
+            width :33.33%;
+            float : left;
+            
+            padding-top: 1.875em;
+            padding-left: 1.25em;
+            padding-right: 1.25em;
+            
+            padding-bottom: 2.5em;
+            
+        }
+        .nombre{
+            font-weight: bold;
+            font-size:1.25rem;
+            text-transform: uppercase;
+            font-family:roboto;
+            p a{
+                text-decoration: none;
+            }
+        }
+        p{
+            margin-left: 0.6em;
+            text-align: center; 
+        }
+    }
+
+    
+}
+/**fin mvps**/
