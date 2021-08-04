@@ -162,3 +162,8 @@ input[type="enviar"]{
     width: auto;
 
 }
+footer .footer{
+    width: 100%;
+    background-color:black;
+    color: white;
+}
